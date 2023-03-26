@@ -1,0 +1,15 @@
+digraph G {
+
+compound=true
+rankdir=LR;
+nodesep = 0.2;
+fontname="Courier New"
+splines = ortho
+
+edge [fontname="Courier New", arrowsize=0.4, style="dashed", penwidth=0.5]
+
+node [penwidth = 0.4, shape = box, fillcolor = white, color=purple, height=0,
+  style = "rounded,filled", fontname = "Courier", align = left]
+
+graph [penwidth =2, shape = box, fillcolor = white,
+  style = "rounded, filled", fontname = "Courier Bold", padding=3]
